@@ -1,0 +1,345 @@
+body{
+
+}
+.header{
+background-color: rgb(151, 180, 243);
+color: white;
+border-radius: 15px;
+position: relative;
+}
+.header:hover{
+    background-color: rgb(116, 140, 248);
+    color: black;
+}
+.img-1{
+    width: 50px;
+    height: 40px;
+    border-radius: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin: 0px 100px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+li a:hover{
+    background-color: aqua;
+    background-color: rgb(116, 140, 248);
+    padding: 6px 9px;
+    border-radius: 10px;
+    color: black;
+}
+/*end*/
+.header-main{
+    background-image: url(img/backround\ img.jpg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 100%, 1500px;
+    margin-top: -20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.shear{
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    padding: 20px;
+}
+.fast-heading{
+    color: white;
+margin-right: 500px;
+padding: 20px;
+padding-top: 90px;
+}
+.find{
+    font-size: 40px;
+  /*padding: 20px;*/
+  /*margin: 10px;*/
+}
+.new-era{
+font-size: 25px;
+}
+.btn-primary{
+    background-color: blue;
+    color: white;
+    padding: 8px 60px;
+    outline: none;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: rgb(123, 238, 238);
+    color: black;
+    transition: all ease-in 0.3s;
+}
+/*main start*/
+main{
+    background-color: white;
+    margin: 0 auto;
+}
+.section-fast{
+ 
+   justify-content: center;
+
+ 
+}
+.section-heading{
+   
+    margin-left: 400px;
+  margin-top: -5px;
+  
+}
+.new-head{
+    font-weight: bold;
+    margin-left: 80px;
+
+}
+.find-head{
+    margin-top: -15px;
+   font-size: 40px;
+   color: #5f5d5d;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-secendary{
+    margin-left: 400px;
+    margin-top: -20px;
+}
+.btn-button{
+     background-color: white;
+    padding: 12px 30px;
+    color: black;
+ 
+}
+.btn-button:hover{
+    background-color: rgb(140, 255, 140);
+    color: black;
+    transition: all ease-in 0.3s;
+}
+.one-item{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -10px;
+}
+/*car item*/
+.car-item{
+ margin-left: 400px;
+}
+.car-line{
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.car-title{
+    font-size: 20px;
+    color: black;
+}
+.car-head{
+    color: #474747;
+    margin-top: -15px;
+}
+/**end*/
+.section-three{
+    background-color: rgb(221, 218, 218);
+    margin-top: 50px;
+    width: 100%;
+
+}
+.car-find{
+    font-size: 30px;
+}
+.icon-car{
+    margin: 0 370px;
+}
+.car-head1{
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.icon-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -35px;
+}
+.icon-1{
+    padding: 20px;
+    margin: 0 auto;
+}
+.book-1{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: -10px;
+}
+.car-2{
+    margin-left: 35px;
+}
+.btn-label{
+    padding: 7px 28px;
+    background-color: rgb(238, 231, 231);
+    font-weight: bold;
+    margin-left: 50px;
+}
+.btn-label:hover{
+ background-color: white;
+ transition: all ease-in 0.5s;
+}
+.btn-label2{
+    padding: 7px 28px;
+    background-color: rgb(238, 231, 231);
+    font-weight: bold;
+    margin-left: 25px; 
+}
+.btn-label2:hover{
+    background-color: white;
+    transition: all ease-in 0.5s;
+}
+/*start red car*/
+.section-four{
+    background-image: url(img/bmw_x_2222.webp);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 100%, 1100px;
+}
+.red-car{
+    
+    color: white;
+    padding: 30px;
+    /*position: relative;*/
+}
+.car-bmw{
+    font-size: 15px;
+    padding-top: 60px;
+  
+}
+.car-heading{
+    font-size: 35px;
+    margin-top: -10px;
+   
+}
+.btn-red-car{
+    color: rgb(0, 0, 0);
+    padding: 8px 50px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    padding-top: -25px;
+
+}
+.btn-red-car:hover{
+    background-color: blue;
+    color: white;
+    transition: all ease-in 0.3s;
+}
+/*red car end*/
+.five-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+.five-title{
+    margin-left: 95px;
+
+}
+.five-head{
+font-weight: bold;
+font-size: 12px;
+color: #474747;
+}
+.five-bmw{
+    margin-top: -10px;
+    font-size: 45px;
+    color: #383636;
+    font-family: 'Courier New', Courier, monospace;
+}
+.five-dis{
+    margin-top: -35px;
+    font-size: px;
+    color: #6e6e6e;
+}
+.five-button{
+    margin-top: -1px;
+    padding: 9px 45px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    outline: white;
+    font-size: 15px;
+}
+.five-button:hover{
+    background-color: white;
+    color: black;
+    transition: all ease-in 0.3s;
+    border: 1px solid black;
+}
+.five-pictur{
+    padding-right: 90px;
+}
+.section-six{ 
+    padding: 30px;
+}
+.six-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.six-bmw{
+ color: #5f5d5d;   
+}
+/*END*/
+.section-seven{
+    background-color: #c2bfbf;
+    width: 100%;
+}
+    .seven-main{
+        display: flex;
+        align-content: center;
+       
+        /*position: absolute;*/
+        
+    }
+    .seven-title{
+        margin-left: 50px;
+    }
+    .seven-head{
+        margin-left: 500px;
+    }
+    .seven-contact{
+        color: black;
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .seven-dis{
+        margin-top: -10px;
+        color: #5a5959;
+    }
+    .seven-icons{
+        font-size: 30px;
+      margin-left: 20px;
+      padding: 20px;
+    }
+    .fa-facebook-f{
+        color: rgb(34, 97, 233);
+    }
+    .fa-twitter{
+        color: rgb(22, 22, 209);
+    }
+    .fa-youtube{
+        color: red;
+    }  
+    .fa-linkedin{
+        color: blueviolet;
+    }  
