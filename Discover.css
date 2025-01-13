@@ -1,15 +1,16 @@
 body{
 
 }
-.header{
-background-color: rgb(151, 180, 243);
-color: white;
-border-radius: 15px;
-position: relative;
-}
+
 .header:hover{
     background-color: rgb(116, 140, 248);
     color: black;
+}
+.model{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
 }
 .img-1{
     width: 50px;
@@ -21,6 +22,8 @@ nav{
     align-items: center;
     justify-content: baseline;
     margin: 0px 100px;
+    position: fixed;
+    top: 0;
 }
 nav ul{
     display: flex;
@@ -33,14 +36,13 @@ nav ul li{
 li a{
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 li a:hover{
-    background-color: aqua;
-    background-color: rgb(116, 140, 248);
+    /*background-color: aqua;*/
     padding: 6px 9px;
-    border-radius: 10px;
-    color: black;
+    border-radius: 4px;
+    color: rgb(82, 37, 245);
 }
 /*end*/
 .header-main{
@@ -57,6 +59,7 @@ li a:hover{
     padding-left: 20px;
     font-size: 15px;
     padding: 20px;
+    padding-top: 80px;
 }
 .fast-heading{
     color: white;
@@ -95,12 +98,6 @@ main{
 
  
 }
-.section-heading{
-   
-    margin-left: 400px;
-  margin-top: -5px;
-  
-}
 .new-head{
     font-weight: bold;
     margin-left: 80px;
@@ -111,10 +108,6 @@ main{
    font-size: 40px;
    color: #5f5d5d;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.btn-secendary{
-    margin-left: 400px;
-    margin-top: -20px;
 }
 .btn-button{
      background-color: white;
@@ -135,7 +128,9 @@ main{
 }
 /*car item*/
 .car-item{
- margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .car-line{
     margin-left: 60px;
@@ -154,13 +149,17 @@ main{
     background-color: rgb(221, 218, 218);
     margin-top: 50px;
     width: 100%;
+    border-radius: 5px;
 
 }
 .car-find{
     font-size: 30px;
 }
 .icon-car{
-    margin: 0 370px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ padding-top: 20px;
 }
 .car-head1{
     margin-left: 50px;
