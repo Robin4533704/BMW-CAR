@@ -77,7 +77,6 @@ font-size: 25px;
     color: white;
     padding: 8px 60px;
     outline: none;
-    border: 1px solid blue;
     border-radius: 5px;
 }
 .btn-primary:hover{
@@ -85,3 +84,69 @@ font-size: 25px;
     color: black;
     transition: all ease-in 0.3s;
 }
+/*main start*/
+main{
+    background-color: white;
+    margin: 0 auto;
+}
+.section-fast{
+ 
+   justify-content: center;
+
+ 
+}
+.section-heading{
+   
+    margin-left: 400px;
+  margin-top: -5px;
+  
+}
+.new-head{
+    font-weight: bold;
+    margin-left: 80px;
+
+}
+.find-head{
+    margin-top: -15px;
+   font-size: 40px;
+   color: #5f5d5d;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-secendary{
+    margin-left: 400px;
+    margin-top: -20px;
+}
+.btn-button{
+     background-color: black;
+    padding: 12px 30px;
+    color: rgb(255, 245, 245);
+ 
+}
+.btn-button:hover{
+    background-color: rgb(140, 255, 140);
+    color: black;
+    transition: all ease-in 0.3s;
+}
+.one-item{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -10px;
+}
+/*car item*/
+.car-item{
+ margin-left: 400px;
+}
+.car-line{
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.car-title{
+    font-size: 20px;
+    color: black;
+}
+.car-head{
+    color: #474747;
+    margin-top: -15px;
+}
+/**end/
