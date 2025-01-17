@@ -13,7 +13,8 @@ width: 100%;
    /* max-width: 1120px; */
    width: 100%;
    /* border: 1px solid rgb(255, 0, 200); */
-   background-color: rgb(32, 72, 107);
+   background-color: rgb(32, 255, 102);
+   border-radius: 10px;
 }
 .img-1{
     border-radius: 38px;
@@ -34,15 +35,18 @@ nav ul{
 
 ul li{
     list-style: none;
+    color: white;
 }
 li a{
     text-decoration: none;
     font-size: 20px;
-    color: white;
+
+   
     
 }
+
 li a:hover{
-    color: rgb(20, 13, 13);
+    color: rgb(1, 0, 0);
     transition: all ease-in 0.3s;
     background-color: rgb(32, 252, 24);
     padding: 8px 12px;
@@ -55,6 +59,7 @@ li a:hover{
     justify-content: space-between;
     align-items: center;
     margin: 0 50px;
+    padding: 20px;
     /* border: 1px solid rgb(3, 3, 75); */
 /* position: relative; */
     
@@ -62,6 +67,7 @@ li a:hover{
 .hero-one img{
    width: 100%;
    background-color: red;
+   border-radius: 10px;
 }
 .img-hero{
     border-radius: 10px;
@@ -70,7 +76,7 @@ li a:hover{
     padding-top: 15px;
 }
 .btn-primary{
-    color: black;
+    color: rgb(0, 0, 0);
     background-color: aliceblue;
     padding: 8px 30px;
     border-radius: 1px;
@@ -433,7 +439,7 @@ ul{
 /*media query*/
 @media screen and (max-width: 576px) {
    
-   nav ul, nav, .header-hero, .car-head, .section-tow-container, .section-three-container, .section-four-container, .icon-container, .six-main, .seven-container, .seven-last{
+   nav ul, nav, .header-hero, .car-head, .section-tow-container, .section-three-container, .section-four-container, .icon-container, .six-main, .seven-container, .seven-last, .eight-main{
     flex-direction: column;
 
    } 
