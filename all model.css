@@ -60,6 +60,8 @@ li a:hover{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    border: 2px solid rebeccapurple;
+   margin: 30px;
     /* border: 1px solid rgb(3, 3, 75); */
 /* position: relative; */
     
@@ -456,5 +458,8 @@ ul{
    }
    nav ul{
     padding-right: 20px;
+   }
+   .header-hero{
+    margin: 0;
    }
 } 
