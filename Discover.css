@@ -405,7 +405,7 @@ color: #474747;
       margin: 0px;
       flex-direction: column;
      }
-     nav ul, .five-main, {
+     nav ul, .five-main, .five-main{
         flex-direction: column;
      }
      .five-title, .seven-main{
