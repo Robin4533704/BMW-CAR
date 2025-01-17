@@ -4,7 +4,9 @@
     margin: 0;
 } */
 header{
-    display: block;
+   width: 100%;
+    background-color: rgb(19, 67, 118);
+   border-radius: 10px;
 }
 .header:hover{
     background-color: rgb(116, 140, 248);
