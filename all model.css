@@ -59,10 +59,10 @@ li a:hover{
 /* position: relative; */
     
 }
-/* .hero-one{
-    border: 2px solid
-    red;
-} */
+.hero-one img{
+   width: 100%;
+   background-color: red;
+}
 .img-hero{
     border-radius: 10px;
     /* max-width: 1120px; */
@@ -269,8 +269,11 @@ padding: 20px;
     flex-direction: column;
 
    } 
-   .header-fast, .header-title, .header-hero, .three-img img {
+   .header-fast, .header-title, .header-hero, .three-img img, .hero-one img {
     width: 100%;
+   }
+   .header-hero{
+    margin: auto;
    }
    .section-container{
     align-items: center;
