@@ -1,7 +1,11 @@
-body{
 
+/* body{
+    display: block;
+    margin: 0;
+} */
+header{
+    display: block;
 }
-
 .header:hover{
     background-color: rgb(116, 140, 248);
     color: black;
@@ -46,31 +50,49 @@ li a:hover{
 }
 /*end*/
 .header-main{
-    background-image: url(img/backround\ img.jpg);
+border: 1px solid red;
+    background-image: url("img/backround\ img.jpg");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-size: 100%, 1500px;
-    margin-top: -20px;
+     background-position: top left, bottom right; 
+       background-size: cover; 
+    padding: 20px;     
+     margin-top: -20px;
     border-radius: 10px;
-    padding: 20px;
+
+    
 }
+
 .shear{
     color: white;
-    padding-left: 20px;
-    font-size: 15px;
-    padding: 20px;
+    padding-left: 20px; 
+      font-size: 10px; 
+     padding: 20px;
     padding-top: 80px;
-}
+} 
+
 .fast-heading{
-    color: white;
-margin-right: 500px;
+color: white;
+/* margin-right: 500px; */
 padding: 20px;
 padding-top: 90px;
+color: white;
 }
 .find{
     font-size: 40px;
   /*padding: 20px;*/
   /*margin: 10px;*/
+}
+@media (max-width: 576px) {
+    .header-main{
+       /* padding: 200px 200px 100px 200px; */
+       /* display: flex; */
+       /* align-items: center; */
+       flex-direction: column;
+       
+   }
+
+.shear
+
 }
 .new-era{
 font-size: 25px;
@@ -92,6 +114,8 @@ main{
     background-color: white;
     margin: 0 auto;
 }
+
+
 .section-fast{
  
    justify-content: center;
@@ -145,6 +169,7 @@ main{
     margin-top: -15px;
 }
 /**end*/
+
 .section-three{
     background-color: rgb(221, 218, 218);
     margin-top: 50px;
@@ -170,6 +195,11 @@ main{
     justify-content: space-around;
     align-items: center;
     margin-top: -35px;
+}
+@media (max-width: 576px) {
+    .icon-main{
+        flex-direction: column;
+    }
 }
 .icon-1{
     padding: 20px;
@@ -205,11 +235,21 @@ main{
 }
 /*start red car*/
 .section-four{
-    background-image: url(img/bmw_x_2222.webp);
+    background-image: url("img/bmw_x_2222.webp");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    /* background-position: top left, bottom right; */
+    /* background-color: red;
+    border: 5px solid red; */
     background-size: 100%, 1100px;
 }
+/* @media (max-width: 576px) {
+    .section-four{
+        font-size: 15px;
+    }
+    .car-bmw{
+        font-size: 10px;
+    }
+} */
 .red-car{
     
     color: white;
@@ -286,14 +326,29 @@ color: #474747;
 .five-pictur{
     padding-right: 90px;
 }
+
 .section-six{ 
     padding: 30px;
+
 }
+
 .six-main{
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 40px;
+}
+@media (max-width: 576px) {
+    .six-main{
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .welcome{
+        font-size: 10px;
+    }
+   .six-picture{
+    font-size: 15px;
+   }
 }
 .six-bmw{
  color: #5f5d5d;   
@@ -311,10 +366,10 @@ color: #474747;
         
     }
     .seven-title{
-        margin-left: 50px;
+        margin: 0 auto;
     }
     .seven-head{
-        margin-left: 500px;
+     margin: 0 auto;
     }
     .seven-contact{
         color: black;
@@ -342,3 +397,43 @@ color: #474747;
     .fa-linkedin{
         color: blueviolet;
     }  
+    /*media */
+    @media screen  and (max-width: 576px){
+     nav{
+      margin: 0px;
+      flex-direction: column;
+     }
+     nav ul, .five-main, {
+        flex-direction: column;
+     }
+     .five-title, .seven-main{
+        margin: 0;
+     }
+     header{
+        background-image: url(img/backround\ img.jpg);
+     }
+     body{
+        padding: 10px;
+        margin: 10px;
+    }
+        
+    }
+    @media screen and (min-width: 990px) and (max-width: 576px) {
+        .header-main{
+            padding: 10px;
+            margin-top: -20px;
+            background-size: cover;
+        }
+        .icon-car, .icon-main, .six-main{
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            flex-direction: column;
+        }
+        .seven-main{
+            flex-direction: column-reverse;
+        }
+        .section-six{
+            margin: 0 auto;
+        }
+    }
