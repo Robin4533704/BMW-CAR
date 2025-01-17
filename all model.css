@@ -54,9 +54,9 @@ li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 70px;
+    margin: 0 50px;
     /* border: 1px solid rgb(3, 3, 75); */
-position: relative;
+/* position: relative; */
     
 }
 /* .hero-one{
@@ -83,13 +83,208 @@ position: relative;
 
 .test-aline{
     padding-right: 30px;
+ 
+}
+.section-one{
+    background-color: rgb(231, 239, 246);
+    margin-top: 50px;
+    padding: 50px;
+  
+  
+}
+.section-container{
+/* flex-direction: column;
+align-items: center;
+justify-content: center; */
+display: grid;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.section-title{
+    font-weight: bold;
+    color: rgb(3, 3, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+   margin: auto;
+   /* padding: auto; */
+}
+.section-description{
+    color: #9a9999;
+  margin: auto;
+    /* padding: auto; */
+}
+.car-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.car-paimary{
+ /* margin: 0 auto; */
+ text-align: center;
+ color: #474744;
+}
+.btn-secend{
+color: rgb(255, 248, 248);
+background-color: rgb(255, 114, 27);
+padding: 7px 48px;
+border-radius: 5px;
+outline: navajowhite;
+border: none;
+margin-top: -15px;
+}
+.btn-secend:hover{
+    background-color: blue;
+    transition: all ease-in 0.5s;
+}
+/*section-tow start*/
+.section-tow{
+   background-color: rgb(228, 242, 255);
+  
+   /* margin-top: 40px; */
+   padding: 20px;
+}
+.section-tow-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+ 
+}
+.tow-img img{
+    border-radius: 8px;
+    font-size: 20px;
+}
+.tow-discription{
+  
+padding: 20px;
+    margin: 20px;
+}
+/*three container start*/
+.section-three{
+    background-color: rgb(172, 204, 233);
+   margin-top: 30px;
+ }
+ .section-three-container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /* padding: 10px; */
+  
+ }
+ .three-img img{
+     border-radius: 8px;
+     font-size: 20px;
+ }
+ .three-discription{
+   
+ padding: 20px;
+     margin: 20px;
+ }
+ /*four start*/
+ .section-four{
+    background-color: rgb(169, 213, 255);
+   margin-top: 30px;
+ }
+ .section-four-container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /* padding: 10px; */
+  
+ }
+ .four-img img{
+     border-radius: 8px;
+     font-size: 20px;
+ }
+ .four-discription{
+   
+ padding: 20px;
+     margin: 20px;
+ }
+ /*section five*/
+ .section-five{
+    background-color: rgba(157, 157, 157);
+    padding-top: 20px;
+    margin-top: 30px;
+ }
+.five-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+.icon-title{
+    color: black;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* margin-top: -5px;*/
+}
+.icon-descripton{
+    color: #474744;
+    margin: auto;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon-1{
+    background-color: rgb(157, 157, 157);
+    /* padding: 20px; */
+    font-size: 10px;
+  align-items: center;
+  text-align: center;
+  
+}
+.icon-1:hover{
+    background-color: rgb(173, 173, 173);
+    transition: all ease-in-out 0.4s;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.book-1{
+    font-size: 20px;
+}
+.btn-label2{
+    background-color: greenyellow;
+    padding: 9px 20px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.btn-label2:hover{
+    background-color: blueviolet;
+    transition: all ease-in-out 0.4;
 }
 
-@media (max-width: 576px) {
-    .header-hero, .header-fast{
+
+/* 
+
+/*media query*/
+@media screen and (max-width: 576px) {
+    /* body{
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+   }  */ 
+   nav ul, nav, .header-hero, .car-head{
+    flex-direction: column;
+    margin: 0 auto;
+   } 
+   .header-fast, .header-title, .header-hero{
+    width: 100%;
+   }
+   .section-container{
+    align-items: center;
+    justify-content: center;
+   }
+} 
+@media screen and (min-width:990px) and (max-width: 576px) {
+    .car-head{
         flex-direction: column;
-    }
-    .img-hero{
-       width: 450px; 
     }
 }

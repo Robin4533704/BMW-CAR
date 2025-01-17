@@ -413,26 +413,23 @@ color: #474747;
         background-image: url(img/backround\ img.jpg);
      }
      body{
-        padding: 10px;
-        margin: 10px;
+      padding: auto;
     }
         
     }
     @media screen and (min-width: 990px) and (max-width: 576px) {
-        .header-main{
+        /* .header-main{
             padding: 10px;
             margin-top: -20px;
             background-size: cover;
-        }
+        } */
         .icon-car, .icon-main, .six-main{
             justify-content: space-around;
             align-items: center;
             padding: 10px;
             flex-direction: column;
         }
-        .seven-main{
-            flex-direction: column-reverse;
-        }
+       
         .section-six{
             margin: 0 auto;
         }
