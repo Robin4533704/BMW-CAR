@@ -381,12 +381,18 @@ color: #474747;
     .seven-dis{
         margin-top: -10px;
         color: #5a5959;
+    
     }
     .seven-icons{
-        font-size: 30px;
-      margin-left: 20px;
-      padding: 20px;
+        /* display: grid; */
+      font-size: 30px; 
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin: 20px;
+
     }
+
     .fa-facebook-f{
         color: rgb(34, 97, 233);
     }
